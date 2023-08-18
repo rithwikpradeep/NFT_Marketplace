@@ -1,0 +1,36 @@
+.header-container {
+    border-bottom: 5px solid #daa520;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.header-logo {
+    width: 150px; 
+    cursor: pointer;
+}
+
+.header-nav {
+    display: flex;
+    gap: 30px; /* Adjusted for more space between the links */
+    align-items: center;
+}
+
+.nav-link {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 18px; /* Increase from default to make the text larger */
+    padding: 15px 25px; /* Increase padding for a larger button appearance */
+    border-radius: 7px; /* Optional: Slightly larger border-radius */
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

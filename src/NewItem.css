@@ -1,0 +1,56 @@
+/* NewItem.css */
+
+/* Reset styles to have a consistent base */
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* General style for the form */
+form {
+  width: 100%;
+  max-width: 1860px; /* Adjust this if you want */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4; /* A subtle grey to provide contrast with white inputs */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* TextFields styling */
+#name, #price {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc; /* subtle border */
+}
+
+#name:hover, #price:hover {
+  border-color: #aaa; /* Darker border on hover for a subtle effect */
+}
+
+#name:focus, #price:focus {
+  border-color: #666; /* Even darker on focus for distinction */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #ffd700; /* gold */
+  background-color: #000; /* black */
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #ffd700; /* gold */
+  color: #000; /* black */
+}
+
+/* Add this to remove focus outline on buttons (optional) */
+button:focus {
+  outline: none;
+}

@@ -1,0 +1,32 @@
+/* Main Card Styling */
+.Card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions for hover effects */
+  }
+  
+  .Card:hover {
+    transform: scale(1.05); /* Slight scale up on hover */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth on hover */
+  }
+  
+  /* Image Styling */
+  .CardContent img {
+    width: 100%; /* Ensures the image width is consistent and fits the card */
+    max-height: 250px; /* Adjust based on your desired maximum height */
+    object-fit: cover; /* Ensures images with different aspect ratios still look consistent */
+    border-radius: 10px; /* Smooth rounded edges for the image */
+    margin-bottom: 15px; /* Space below the image */
+  }
+  
+  /* Buy Button Styling */
+  .Button {
+    background-color: #000; /* Black background */
+    color: #ffd700; /* Gold font */
+    border: 2px solid #ffd700; /* Gold border */
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth color transition for hover effect */
+  }
+  
+  .Button:hover {
+    background-color: #ffd700; /* Gold background on hover */
+    color: #000; /* Black font on hover */
+  }
+  
